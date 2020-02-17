@@ -7,3 +7,5 @@ I used Multinomial Event Model Naive Bayes for text classification. I learned th
 - TCC_Model.ipynb file contains the code of the model.
 - model.pkl is the pickle file created using pickle module to save the model.  
 - app.py file is an API file which contains 1 endpoint '/predict', which accepts a comment and returns the class of the comment.
+
+To run this project simply navigate to the folder in command line and run command 'python app.py'
