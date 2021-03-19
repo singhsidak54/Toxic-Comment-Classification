@@ -22,3 +22,4 @@ if __name__ == '__main__':
 
     clf = pickle.load(model)
     app.run(debug=True)
+#test
