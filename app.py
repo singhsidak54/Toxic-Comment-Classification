@@ -17,6 +17,7 @@ def predict():
 
     return jsonify({'class': pred})
 #dummy commit
+#test
 if __name__ == '__main__':
     model = open('model/model.pkl', 'rb')
 
