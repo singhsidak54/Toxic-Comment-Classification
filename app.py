@@ -16,7 +16,7 @@ def predict():
     pred = clf.predict(comment)
 
     return jsonify({'class': pred})
-
+#dummy commit
 if __name__ == '__main__':
     model = open('model/model.pkl', 'rb')
 
